@@ -1,3 +1,6 @@
+/Hardware/EmergencyDisplay/History
+/Firmware/Debug
+
 # Prerequisites
 *.d
 
@@ -18,6 +21,8 @@
 *.pch
 
 # Libraries
+*.lib
+*.a
 *.la
 *.lo
 
@@ -82,3 +87,11 @@ docs/docusaurus/website/node_modules
 
 #vscode
 .vscode
+
+# ZIP files
+*.ZIP
+*.zip
+
+# Altium files
+*.SchDocPreview
+*.LOG
